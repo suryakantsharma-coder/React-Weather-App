@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* header css coding  */
+
+.inner_input {
+  display: flex;
+  justify-content: center;
+  height: 8vh;
+  background-color: #141414;
+}
+
+.input_field {
+  width: 50%;
+  height: 4vh;
+  margin-top: 1vh;
+  font-size: 1vh;
+  padding: 0.5%;
+  position: relative;
+}
+
+.input_field input {
+  width: 100%;
+  height: 4.5vh;
+  margin-top: -0.5vh;
+  font-size: 2vh;
+  padding: 0.5%;
+}
+
+.header_background li:hover {
+  color: white;
+  background-color: #141414;
+}
+
+.header_background p {
+  width: 20%;
+  height: 6vh;
+  margin-left: 2vh;
+  margin-top: 2vh;
+  font-size: 2vh;
+  padding: 0.5%;
+}
+
+.input_field ul {
+  width: 98.6%;
+  max-height: 40vh;
+  height: auto;
+  background-color: #404040;
+  color: white;
+  margin-top: 0vh;
+  font-size: 2vh;
+  padding: 1.4%;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* for Desktop */
+
+@media screen and (min-width: 1261px) {
+  .body {
+    background-color: #404040;
+  }
+  .input_field {
+    width: 50%;
+    height: 4vh;
+    margin-top: 1vh;
+    font-size: 1vh;
+    padding: 0.5%;
+  }
+  input.input_area:focus {
+    outline: none;
+  }
+  .input_field input {
+    width: 100%;
+    height: 4vh;
+    margin-top: -0.5vh;
+    font-size: 2vh;
+    padding: 0.5%;
+  }
+  .input_area {
+    border-radius: 6px;
+    border: none;
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .input_field ul {
+    width: 98.6%;
+    max-height: 40vh;
+    height: auto;
+    text-align: center;
+    background-color: #404040;
+    color: white;
+    margin-top: 0vh;
+    font-size: 2vh;
+    padding: 1.4%;
+    overflow-y: scroll;
+  }
+  .root_body {
+    width: 100%;
+    height: 85.8vh;
+    display: flex;
+    justify-content: center;
+  }
+  .parent_body {
+    width: 60%;
+    height: auto;
+    margin-top: 12vh;
+    color: #fff;
+    border-radius: 2.5%;
+    display: flex;
+    justify-content: center;
+  }
+  .img_section {
+    width: 50%;
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 5%;
+    color: white;
+    box-shadow: 1px 2px 4px 0px black;
+  }
+  .show_details {
+    width: 60%;
+    overflow: auto;
+    height: 70%;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 0%;
+    background-color: #141414;
+    box-shadow: 1px 2px 4px 0px black;
+  }
+  .show_details h1 {
+    font-size: 4vh;
+    margin-top: 4vh;
+  }
+  .show_details p {
+    font-size: 2.2vh;
+    margin-top: 1vh;
+  }
+  .id {
+    color: white;
+    font-weight: bold;
+    font-size: 3.2vh;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: black;
+    margin-top: 1vh;
+  }
+}
+
+/* for tablets */
+
+@media screen and (max-width: 768px) {
+  .body {
+    height: 100vh;
+    background-color: #404040;
+  }
+  .input_field {
+    width: 50%;
+    height: 4vh;
+    margin-top: 1vh;
+    font-size: 1vh;
+    padding: 0.5%;
+  }
+  input.input_area:focus {
+    outline: none;
+  }
+  .input_field input {
+    width: 100%;
+    height: 4vh;
+    margin-top: -0.5vh;
+    font-size: 2vh;
+    padding: 0.5%;
+  }
+  .input_area {
+    border-radius: 6px;
+    border: none;
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .input_field ul {
+    width: 98.6%;
+    max-height: 40vh;
+    height: auto;
+    text-align: center;
+    background-color: #404040;
+    color: white;
+    margin-top: 0vh;
+    font-size: 2vh;
+    padding: 1.4%;
+    overflow-y: scroll;
+  }
+  .root_body {
+    width: 100%;
+    height: 85.8vh;
+    display: flex;
+    justify-content: center;
+  }
+  .parent_body {
+    width: 85%;
+    height: auto;
+    margin-top: 12vh;
+    color: #fff;
+    border-radius: 2.5%;
+    display: flex;
+    justify-content: center;
+  }
+  .img_section {
+    width: 50%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 5%;
+    color: white;
+    box-shadow: 1px 2px 4px 0px black;
+  }
+  .show_details {
+    width: 50%;
+    overflow: auto;
+    height: 50%;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 0%;
+    background-color: #141414;
+    box-shadow: 1px 2px 4px 0px black;
+  }
+  .show_details h1 {
+    font-size: 3vh;
+    margin-top: 1vh;
+  }
+  .show_details p {
+    font-size: 1.5vh;
+    margin-top: 1vh;
+  }
+  .id {
+    color: white;
+    font-weight: bold;
+    font-size: 3.5vh;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    background-color: black;
+    margin-top: 1vh;
+  }
+}
+
+/* for mobile / smart phone */
+
+@media screen and (max-width: 480px) {
+  .body {
+    height: auto;
+    background-color: #404040;
+  }
+  .input_field {
+    width: 80%;
+    height: 4vh;
+    margin-top: 2vh;
+    font-size: 1vh;
+    padding: 0.5%;
+  }
+  .input_area {
+    border-radius: 6px;
+    border: none;
+    background-color: #404040;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+  }
+  .input_field ul {
+    width: 98.6%;
+    max-height: 40vh;
+    height: auto;
+    text-align: center;
+    background-color: #404040;
+    color: white;
+    margin-top: 0vh;
+    font-size: 2vh;
+    padding: 1.4%;
+    overflow-y: scroll;
+  }
+  input.input_area:focus {
+    outline: none;
+  }
+  .input_field input {
+    width: 100%;
+    height: 4vh;
+    margin-top: -0.5vh;
+    font-size: 2vh;
+    padding: 0.5%;
+  }
+  .root_body {
+    width: 100%;
+    height: 85.8vh;
+  }
+  .parent_body {
+    width: 100%;
+    height: auto;
+    margin-top: 0vh;
+    color: #fff;
+    border-radius: 2.5%;
+    display: block;
+  }
+  .img_section {
+    width: 100%;
+    height: 45%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    color: white;
+    box-shadow: 1px 2px 4px 0px black;
+  }
+  .show_details h1 {
+    font-size: 4vh;
+    margin-top: 4vh;
+  }
+  .show_details p {
+    font-size: 2.2vh;
+    margin-top: 1vh;
+  }
+  .show_details {
+    width: 100%;
+    overflow: auto;
+    height: 55%;
+    color: white;
+    text-align: center;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom-left-radius: 0%;
+    background-color: #141414;
+    box-shadow: 1px 2px 4px 0px black;
+  }
+  .id {
+    height: auto;
+    color: white;
+    font-weight: bold;
+    font-size: 2.5vh;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-top: 2vh;
+  }
+}
